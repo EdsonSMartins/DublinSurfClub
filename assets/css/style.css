@@ -84,7 +84,7 @@ h1, h2 {
 /* section two - about us */
 
 surf-club {
-    height: 750px;
+    height: 600px;
 }
 
 #left-about {
@@ -94,9 +94,14 @@ surf-club {
 }
 
 #right-about {
-    padding-top: 60px;
-    width: 38%;
+    padding-top: 30px;
+    width: 33%;
     float:right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
 }
 
 hr {
@@ -110,7 +115,19 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2, p{
+    text-align: right;
 }
 
 #welcome {
@@ -135,3 +152,6 @@ hr {
 .images, .images img {
     line-height: 75px;
 }
+
+/* section 3 - plan visit  */
+
