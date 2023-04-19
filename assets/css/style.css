@@ -22,12 +22,14 @@ h1, h2 {
 
 #logo{
     float: left;
-    font-size:200%
+    font-size:200%;
+    margin-left: 50px;
 }
 
 #section-menu {
     font-size: 110%;
     letter-spacing: 4px;
+    margin-right: 50px;
 }
 
 #section-menu, #logo {
@@ -92,8 +94,8 @@ surf-club {
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 60px;
+    width: 38%;
     float:right;
 }
 
