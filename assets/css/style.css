@@ -51,13 +51,13 @@ h1, h2 {
 /* main image */
 
 #main-outer{
-    height: 750px;
+    height: 600px;
     width: 100%;
     overflow:  hidden;
 }
 
 #main-image {
-    height: 750px;
+    height: 600px;
     width: 100%;
     background: url('../images/main\ image.jpg') no-repeat center center;
 
@@ -97,8 +97,39 @@ surf-club {
     float:right;
 }
 
-#center-about {
-    padding-top: 30px;
-    width: 33%;
-    margin:0 auto;
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 150%;
+}
+
+/* image in section two  */
+
+.images {
+    padding: 40px;
+    text-align: center;
+}
+.images img {
+    width: 150%;
+    height: auto;
+    margin: 15px;
+    float: right;
+}
+
+.images, .images img {
+    line-height: 75px;
 }
