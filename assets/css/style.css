@@ -61,7 +61,7 @@ h1, h2 {
 }
 
 #main-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url('../images/main\ image.jpg') no-repeat center center;
     background-size: cover;
@@ -73,7 +73,7 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 80%;
+    font-size: 120%;
     font-family: Kalam, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -82,14 +82,14 @@ h1, h2 {
     width: 600px;
     height: 120px;
 
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
 
     background-color: rgba(163, 219, 241, 0.7);
-    border-radius: 40px;
+    border-radius: 60px;
 
-    bottom: -20px;
+    bottom: -10px;
     left: 100px;
 
     position: absolute;
