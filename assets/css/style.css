@@ -72,6 +72,16 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+/* creates the level of zoom for main image */
+@keyframes main-zoom {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 #cover-text {
     font-size: 120%;
     font-family: Kalam, sans-serif;
@@ -94,22 +104,9 @@ h1, h2 {
 
     position: absolute;
 }
-/* hero image and text box*/
-
 
 #cover-text, #cover-text h2 {
-    color: #fff;
-}
-
-
-/* creates the level of zoom for main image */
-@keyframes main-zoom {
-    from {
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+    color: #3003f8d3;
 }
 
 /* section two - about us */
@@ -132,8 +129,9 @@ h1, h2 {
 
 #center-about {
     padding-top: 30px;
-    width: 33%;
+    width: 100%;
     margin: 0 auto;
+
 }
 
 hr {
@@ -157,10 +155,19 @@ hr {
     clear: both;
     margin-bottom: 30px;
 }
+
+.right-about-heading h2{
+    text-align: right;  
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
 #welcome {
     text-align: center;
     margin: 50px 0;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 #circle-container {
@@ -179,10 +186,10 @@ hr {
     border-radius: 50%;
 }
 
-/* Prices */
+/* Surfing Academy Section */
 
-#prices {
-    background-image: url('../images/section3.webp');
+#sacademy {
+    background-color: ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,9 +198,9 @@ hr {
     margin-top: 60px;
 }
 
-#prices div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.425);
+#sacademy div {
+    color: #070707;
+    background-color: rgba(247, 245, 245, 0.932);
     width: 25%;
     height: 300px;
     float: left;    
@@ -201,13 +208,29 @@ hr {
     text-align: center;
     border: 1px solid white;
     box-sizing: border-box;
+    border-radius: 50%;
+}
+#sacademy h2 {
+    color:rgb(5, 5, 5);
 }
 
 
 /* FOOTER - social media  */
 
 footer {
-    height: 100px;
+    height: 50px;
+}
+
+#address {
+    font-family: Kalam, sans-serif;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+#address p{
+    color:#252525;
 }
 
 .social-networks {
