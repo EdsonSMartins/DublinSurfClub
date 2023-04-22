@@ -83,13 +83,12 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 120%;
-    font-family: Kalam, sans-serif;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     
-    width: 600px;
+    width: 500px;
     height: 120px;
 
     padding-top: 18px;
@@ -97,7 +96,7 @@ h1, h2 {
     padding-right: 5px;
 
     background-color: rgba(163, 219, 241, 0.7);
-    border-radius: 60px;
+    border-radius: 15px;
 
     bottom: -10px;
     left: 100px;
@@ -108,6 +107,11 @@ h1, h2 {
 #cover-text, #cover-text h2 {
     color: #3003f8d3;
 }
+
+#cover-text h2 {
+    margin-bottom: 15px;
+}
+
 
 /* section two - about us */
 
@@ -186,32 +190,44 @@ hr {
     border-radius: 50%;
 }
 
-/* Surfing Academy Section */
+/* Surfing Academy Section - index.html */
 
-#sacademy {
-    background-color: ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#sacademy-outer{
+    margin-top: 100px;
+    height: 100px;
     width: 100%;
     overflow: hidden;
-    margin-top: 60px;
+    position: relative;
+
 }
 
-#sacademy div {
-    color: #070707;
-    background-color: rgba(247, 245, 245, 0.932);
-    width: 25%;
-    height: 300px;
-    float: left;    
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 1px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
+#sacademy-image {
+height: 400px;
+width: 100%;
+background: url('../images/sacademymain.jpg') no-repeat center center;
+background-size: cover;
 }
-#sacademy h2 {
-    color:rgb(5, 5, 5);
+
+#scover-text {
+    font-size: 100%;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    background-color: rgba(163, 219, 241, 0.7);
+    border-radius: 15px;
+    margin: -250px;
+    right: 400px;
+    position: absolute;
+}
+
+#scover-text, #scover-text h2 {
+    color: #3003f8d3;
+}
+
+#scover-text:hover {
+    background-color: rgba(163, 219, 241, 0.925);
 }
 
 
