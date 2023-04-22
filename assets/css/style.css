@@ -268,14 +268,81 @@ footer {
     color: #3a3a3a;
 }
 
-/* media queries  */
+/* Surf Academy page */
 
-@media screen and (max-width:1600px) {
-    #surf-club {
-        width: 65%;
-        height: 1600px;
-        margin: 0 auto;
+#programs {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-    
 
+#programs div {
+    margin: 100px;
+    margin-right: 30px;
+    background-color: #fafafa;
+    width: 400px;
+    height: 800px;
+    padding: 20px 0;
+    text-align: center;
+    border: 5px solid #3003f8d3;
+    border-radius: 20px;
+    list-style-position: outside;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 25px;
+}
+
+ul li {
+    padding: 8px 16px
+}
+
+#programs h2 {
+    font-size: x-large;
+    margin: 10px 5px;
+}
+
+#programs h3 {
+    font-size: large;
+    margin: 5px auto;
+    padding: 30px;
+}
+
+#programs hr {
+    border-top: 2px solid #3003f8d3;
+    width: 80%;
+    margin: 5px auto;
+}
+
+#programs a {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Button Styling */
+
+.button {
+    background: #3003f8d3;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button:hover {
+    background: white;
+    border: 2px solid #3003f8d3;
+    color: #3003f8d3;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
 }
