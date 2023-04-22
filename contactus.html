@@ -19,13 +19,59 @@
         </a>
         <nav id="section-menu">
             <ul >
+                <li><a href="contactus.html" class="active">CONTACT</a></li>
+                <li><a href="surfacademy.html">SURF ACADEMY</a></li>
                 <li><a href="index.html">HOME</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Home section - main image -->    
-    <section id="main-outer">
-        <div id="main-image">
+    <!-- Contact us page -->    
+    <section id="">
+        <div id="">
+
         </div>
+        <section class="form-section">
+            <form class="sign-up-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Submit your details and questions! <i class="fa-solid fa-envelope-open-text"></i></h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input" name="first_name" type="text" required="">
+                <br>
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" name="last_name" type="text" required="">
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" class="text-input" id="email" name="email_address" required="">
+                
+                <label>What is your surf level?</label>
+                <br>
+                <input type="radio" id="four-to-nine" name="child_age" value="four-to-nine" required="">
+                <label for="four-to-nine">Begginer</label>
+                <br>
+                <input type="radio" id="ten-to-fourteen" name="child_age" value="ten-to-fourteen" required="">
+                <label for="ten-to-fourteen">Intermediate</label>
+                <br>
+                <input type="radio" id="ten-to-fourteen" name="child_age" value="ten-to-fourteen" required="">
+                <label for="ten-to-fourteen">Advanced</label>
+                <br>
+                <br>
+                <label>Where did you hear about us?</label>
+                <br>    
+                <select class="select-input" id="heardabout" name="heardabout" required="">
+                    <option value="" disabled="" selected="">Select your option</option>
+                    <option value="socialmedia">Social Media</option>
+                    <option value="friend">A Friend</option>
+                    <option value="google">Google</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <br>
+                  <br>            
+                <label for="message" id="message-box-label"><strong>Leave us a message:</strong></label>
+                <textarea id="message" rows="10" cols="70" name="message"></textarea>
+                
+                <button type="submit" class="form-submit-button" value="submit"> 
+                    Send <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </section>
     </section>
