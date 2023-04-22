@@ -230,6 +230,10 @@ background-size: cover;
     background-color: rgba(163, 219, 241, 0.925);
 }
 
+#scover-text a {
+    text-decoration: none;
+}
+
 
 /* FOOTER - social media  */
 
