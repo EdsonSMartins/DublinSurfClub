@@ -21,3 +21,20 @@ To register, monitor and share their progress
 3. Affordability: low prices and fair cost benefit
 4. Unfold new experiences
 5. Appropriate structure
+
+## User Stories
+
+## First time Visitor goals
+1. As a first time visitor, I want to under the main purpose and 
+2. As a first time visitor, I want to
+3. As a first time visitor, I want to
+
+## Returning visitor goals
+1. As a returning visitor, I want to 
+2. As a returning visitor, I want to
+3. As a returning visitor, I want to
+
+## Frequent user goals
+1. As a frequent visitor, I want to easily access the booking area
+2. As a frequent visitor, I want to get updates on new workshops
+3. As a frequent visitor, I want to 
