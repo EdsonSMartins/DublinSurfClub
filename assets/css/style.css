@@ -13,6 +13,7 @@ body {
     color: #a3a3a3
 }
 
+
 /* headings and logo */
 
 h1, h2 {
@@ -45,7 +46,7 @@ h1, h2 {
 
 #section-menu a {
     text-decoration: none;
-    color: inherit;
+    color: #252525;
 }
 
 #section-menu a:hover {
@@ -71,6 +72,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/main\ image.jpg') no-repeat center center;
     background-size: cover;
+    
 
     /* animates zoom effecton loading page */
     animation-name: main-zoom;
@@ -111,7 +113,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #3003f8d3;
+    color: black;
 }
 
 #cover-text h2 {
@@ -121,80 +123,39 @@ h1, h2 {
 
 /* section two - about us */
 
+.section-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
 #surf-club {
-    height: 500px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#left-about {
-    padding-top: 20px;
-    width: 33%;
-    float:left;
-}
-
-#right-about {
-    padding-top: 20px;
-    width: 33%;
-    float:right;
-}
-
-#center-about {
-    padding-top: 30px;
-    width: 100%;
-    margin: 0 auto;
-
+#surf-club > div {
+    margin: 50px;
+    background-color: #fafafa;
+    width: 400px;
+    height: 300px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 3px solid #03000ed3;
+    border-radius: 20px;
+    position: relative;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 2px solid #03000ed3;
     width: 100%;
     margin: 5px 0;
 }
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 30px;
-}
 
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 30px;
-}
-
-.right-about-heading h2{
-    text-align: right;  
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 200%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: none;
-    border-color: #ccc;
-    border-width: 1px;
-    margin: 5px auto ;
-}
-
-#circle-cover-bg {
-    background: url('../images/section\ two.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 /* Surfing Academy Section - index.html */
 
@@ -229,7 +190,7 @@ background-size: cover;
 }
 
 #scover-text, #scover-text h2 {
-    color: #3003f8d3;
+    color: black;
 }
 
 #scover-text:hover {
@@ -244,15 +205,18 @@ background-size: cover;
 /* FOOTER - social media  */
 
 footer {
-    height: 50px;
+    background-color: #f7f5f5;
+    height: 200px;
+
 }
 
 #address {
     font-family: Lato, sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: medium;
     font-weight: bold;
     text-align: center;
+    padding: 20px
 }
 
 #address p{
@@ -269,8 +233,8 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 5px;
+    padding: 5px;
     color: #3a3a3a;
 }
 
@@ -292,7 +256,7 @@ footer {
     height: 600px;
     padding: 10px 0;
     text-align: center;
-    border: 5px solid #3003f8d3;
+    border: 5px solid black;
     border-radius: 20px;
     list-style-position: outside;
 }
@@ -328,7 +292,7 @@ footer {
 }
 
 #programs hr {
-    border-top: 2px solid #3003f8d3;
+    border-top: 2px solid black;
     width: 80%;
     margin: 2px auto;
 }
@@ -341,24 +305,24 @@ footer {
 /* Button Styling */
 
 .button {
-    background: #3003f8d3;
+    background: black;
     border: 2px solid white;
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
-    font-size: x-large;
-    font-weight: 600;
+    font-size: medium;
+    font-weight: 200;
     text-transform: uppercase;
     text-decoration: none;
 }
 .button:hover {
     background: white;
-    border: 2px solid #3003f8d3;
-    color: #3003f8d3;
+    border: 2px solid black;
+    color: black;
     padding: 10px 10px;
     border-radius: 5px;
-    font-size: x-large;
-    font-weight: 600;
+    font-size: medium;
+    font-weight: 200;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -408,14 +372,14 @@ footer {
     background: transparent;
     height: 25px;
     width: 90%;
-    border: 2px solid #3003f8d3;
+    border: 2px solid black;
     border-radius: 4px;
 }
 
 #message {
     margin: 10px 0 20px 0;
     width: 100%;
-    border: 2px solid #3003f8d3;
+    border: 2px solid black;
     border-radius: 4px;
 }
 
@@ -424,13 +388,13 @@ footer {
 }
 
 .form-submit-button {
-    background: #3003f8d3;
+    background: black;
     border: 2px solid white;
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
     font-family: 'lato', sans-serif;
-    font-size: x-large;
+    font-size: medium;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
@@ -438,12 +402,12 @@ footer {
 
 .form-submit-button:hover {
     background: white;
-    border: 2px solid #3003f8d3;
-    color: #3003f8d3;
+    border: 2px solid black;
+    color: black;
     padding: 10px 10px;
     border-radius: 5px;
     font-family: 'lato', sans-serif;
-    font-size: x-large;
+    font-size: medium;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
