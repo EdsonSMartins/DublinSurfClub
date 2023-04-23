@@ -327,7 +327,7 @@ footer {
     text-decoration: none;
 }
 
-/* Contact page */
+/* Contact Us page */
 
 .contactus-section {
     background: url(../images/contactus2.jpg);
@@ -335,19 +335,18 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 80vw;
+    width: 1300px;
     align-content: center;
     clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
+    margin: 0 auto;
     padding: 5px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
+
 }
 
 .form-section {
     clear: both;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     padding-bottom: 120px;
 }
@@ -384,7 +383,7 @@ footer {
 }
 
 #message-box-label {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .form-submit-button {
