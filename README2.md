@@ -36,6 +36,6 @@ To register, monitor and share their progress
 3. As a returning visitor, I want to  find the Social Media link so that I can join and interact with others in the community.
 
 ## Frequent user goals
-1. As a frequent visitor, I want to 
-2. As a frequent visitor, I want to get updates on new workshops
-3. As a frequent visitor, I want to check to see if there are any 
+1. As a frequent visitor, I want to get updates on new courses
+2. As a frequent visitor, I want to 
+3. As a frequent visitor, I want to 

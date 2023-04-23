@@ -280,6 +280,13 @@ footer {
     background: url('../images/advanced.jpg') no-repeat center center;
     background-size: contain;
 }        
+
+#workshop-image {
+    height: 140px;
+    width: 100%;
+    background: url('../images/workshop1.jpg') no-repeat center center;
+    background-size: contain;
+}
 #programs h2 {
     font-size: x-large;
     margin: 10px 5px;
