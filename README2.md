@@ -25,16 +25,17 @@ To register, monitor and share their progress
 ## User Stories
 
 ## First time Visitor goals
-1. As a first time visitor, I want to under the main purpose and 
-2. As a first time visitor, I want to
-3. As a first time visitor, I want to
+1. As a first time visitor, I want to easily understand the main purpose of the site. 
+2. As a first time visitor, I want to I want to be able to easily navigate throughout the site to find content.
+3. As a first time visitor, I want to 
+4. As a first time visitor, I want to easily find the what are the main features of the organization.
 
 ## Returning visitor goals
-1. As a returning visitor, I want to 
-2. As a returning visitor, I want to
-3. As a returning visitor, I want to
+1. As a returning visitor, I want to find which levels of surfing are requerid.
+2. As a returning visitor, I want to be able to find where business is located and how to contact.
+3. As a returning visitor, I want to  find the Social Media link so that I can join and interact with others in the community.
 
 ## Frequent user goals
-1. As a frequent visitor, I want to easily access the booking area
+1. As a frequent visitor, I want to 
 2. As a frequent visitor, I want to get updates on new workshops
-3. As a frequent visitor, I want to 
+3. As a frequent visitor, I want to check to see if there are any 
