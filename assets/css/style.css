@@ -418,3 +418,17 @@ footer {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* Media queries */
+
+/* For medium screen sizes from 1010px wide and down */
+@media screen and (max-width:1010px) {
+    #section-menu {
+        clear: left;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
+}
