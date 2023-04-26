@@ -341,7 +341,7 @@ footer {
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     width: 80vw;
     align-content: center;
     clear: both;
@@ -424,17 +424,47 @@ footer {
         float: left;
         margin-left: 50px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 20px;
     }
     
 }
 
 /* For medium screen sizes from 600px wide and down */
 @media screen and (max-width:600px) {
+    #logo{        
+        font-size:140%;
+          
+    }
+    #section-menu {        
+        font-size: 70%;        
+        right: 0;
+        text-align: right;
+    }   
+
     #cover-text {
         left: 0;
         width: 200px;
         height: 150px;
         margin-left: 20px;
     }
+    #scover-text {         
+        left: 0;
+        margin-left: 20px;        
+    }
 }
+
+/* For medium screen sizes from 490px wide and down */
+@media screen and (max-width:490px) {
+    #surf-club > div {
+        margin: 0;
+        width: 400px;
+        height: auto;               
+    }
+
+     /* surf academy page */ 
+     #programs div {
+        margin: 0;                
+    }
+
+}
+
