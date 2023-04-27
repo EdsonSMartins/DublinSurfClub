@@ -159,7 +159,7 @@ hr {
 
 
 
-/* Surfing Academy Banner - link to Sur academy page */
+/* Surfing Academy Banner - link to Surf academy page */
 
 #sacademy-outer{
     margin-top: 100px;
@@ -502,7 +502,8 @@ footer {
 
      /* surf academy page */ 
      #programs div {
-        margin: 0;                
+        margin: 0;
+        height: auto;                
     }
 
     .contactus-section {
@@ -516,4 +517,12 @@ footer {
 
 }
 
+/* For medium screen sizes from 350px wide and down */
+@media screen and (max-width:350px){
 
+    #programs div {
+        margin: 0;
+        height: 100%;
+}
+
+}
