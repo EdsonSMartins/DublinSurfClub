@@ -7,6 +7,7 @@ The main purpose is to promote a better lifestyle to people that live in Dublin 
 
 Users will be able to find all information about Dublinf Surf Club: core advantages, surf academy, contact information and contact us form for more details. This was designed responsiveness in order to facilitate user experience easily navigating through the website, seek for more information and potentially register their interest in joining the surf academy program. 
 
+<img src="https://user-images.githubusercontent.com/126015675/235002967-2ce81c06-dfbb-4531-8b6c-5b5d698b246a.png">
 
 ## User Stories
 
