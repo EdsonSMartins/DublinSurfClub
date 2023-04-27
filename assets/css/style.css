@@ -179,6 +179,7 @@ background-size: cover;
 
 #scover-text {
     font-size: 100%;
+    font-weight: bolder;
     letter-spacing: 4px;
     text-align: center;
     width: 200px;
@@ -187,7 +188,7 @@ background-size: cover;
     background-color: rgba(163, 219, 241, 0.7);
     border-radius: 15px;
     margin: -250px;
-    right: 400px;
+    left: 500px;
     position: absolute;
 }
 

@@ -1,6 +1,8 @@
 <h1 align="center">Dublin Surf Club Website</h1>
 
-The purpose of this project is to provide a better lifestyle for people that live or are visiting Dublin by taking surf lessons in a wave pool located in an urban area. This is also an opportunity to develop surfing culture within the young generation not only for a healthier lifestyle but also helping them to develop their skills and become potential professional athletes.
+This is a marketing website for the fictitious urban surf park Dublin Surf Club. The main purpose is to promote a better lifestyle to people that live or are visiting the city by offering tailored surf programs for all ages and levels. 
+Due to its responsiveness and accessibility on a range of devices, users will be able to  easily navigate, seek for more information and potentially register their interest in joining the organisation.
+
 
 ## User Stories
 
