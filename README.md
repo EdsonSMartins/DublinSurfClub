@@ -7,7 +7,7 @@ The main purpose is to promote a better lifestyle to people that live in Dublin 
 
 Users will be able to find all information about Dublinf Surf Club: core advantages, surf academy, contact information and contact us form for more details. This was designed responsiveness in order to facilitate user experience easily navigating through the website, seek for more information and potentially register their interest in joining the surf academy program. 
 
-<h2> align="center"><img src="/assets/images/snidreadme.png"></h2>
+
 ## User Stories
 
 ## First time Visitor goals
@@ -25,3 +25,50 @@ Users will be able to find all information about Dublinf Surf Club: core advanta
 ## Frequent user goals
 1. As a frequent visitor, I want to get updates on new courses and organization latest news.
 
+### Design
+
+
+# Features
+
+## Navigation bar
+
+## The Header
+
+## The Core Advantages
+
+## Surf academy
+
+## Contact section
+
+## the footer
+
+## features left to implement
+
+# Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+# Technologies / Support Used
+
+## Technologies Used
+
+### Languages Used
+
+## Deployment
+
+### GitHub Pages
+
+### Forking the GitHub Repository
+
+## Credits
+
+### Code
+
+### Content
+
+### Media
+
+### Acknowledgements
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
