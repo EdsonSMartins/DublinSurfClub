@@ -336,33 +336,35 @@ footer {
 
 /* Contact Us page */
 
-.contactus-section {
-    background: url(../images/contactus2.jpg);
-    display: block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 80vw;
-    align-content: center;
+.contactus-outer {   
     clear: both;
-    margin: 0 auto;
-    padding: 5px;
-    padding-bottom: 10px;
-
+    padding-top: 2vw;
+    
 }
 
-.form-section {
+.contactus-section {
+    background: url(../images/section\ two.jpg);
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80vw;    
+    align-content: center;
     clear: both;
-    max-width: 600px;
-    width: 100%;
-    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-bottom: 50px;
+
 }
 
 .sform {
-    margin: 150px 10% 0 10%;
+    margin: 5vw auto;
+    width: 70%;    
     color: #3a3a3a;
     background-color:rgba(219, 215, 215, 0.829);
-    padding: 30px;
+    padding: 50px;
+    position: sticky;
 }
 
 .sform h2 {
@@ -370,10 +372,10 @@ footer {
 }
 
 .text-input {
-    margin: 10px 8% 20px 2%;
+    margin: 10px 0;
     background: transparent;
     height: 25px;
-    width: 90%;
+    width: 100%;
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -417,16 +419,36 @@ footer {
 
 /* Media queries */
 
-/* For medium screen sizes from 1010px wide and down */
-@media screen and (max-width:1010px) {
+/* For medium screen sizes from 1400px wide and down */
+@media screen and (max-width: 1400px) {
+    .contactus-section {
+        width: 80%;
+    }
+    .sform {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1100px) {
     #section-menu {
         clear: left;
         float: left;
         margin-left: 50px;
         margin-bottom: 20px;
         line-height: 20px;
+    }  
+    
+    .contactus-section {
+        width: 85%;
+        
+    }
+    .sform {
+        width: 70%;
+        
+
     }
     
+   
+
 }
 
 /* For medium screen sizes from 600px wide and down */
@@ -451,6 +473,16 @@ footer {
         left: 0;
         margin-left: 20px;        
     }
+
+    .contactus-section {
+        width: 85%;
+        
+    }
+    .sform {
+        width: 70%;
+
+    }
+    
 }
 
 /* For medium screen sizes from 490px wide and down */
@@ -466,5 +498,15 @@ footer {
         margin: 0;                
     }
 
+    .contactus-section {
+        width: 80%;
+        
+    }
+    .sform {
+        width: 55%;
+
+    }
+
 }
+
 
