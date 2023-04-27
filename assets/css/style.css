@@ -26,7 +26,8 @@ h1, h2 {
 #logo{
     float: left;
     font-size:200%;
-    margin-left: 50px;  
+    margin-left: 50px;
+      
 }
 
 #section-menu {
@@ -36,12 +37,13 @@ h1, h2 {
 }
 
 #section-menu, #logo {
-    line-height: 70px;
+    line-height: 75px;
 }
 #section-menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    
 }
 
 #section-menu a {
@@ -429,40 +431,40 @@ footer {
     }
 }
 @media screen and (max-width: 1100px) {
+    #logo{        
+        
+        align-items: normal;
+        text-align: left;
+        width: 80%;
+    }
+    
     #section-menu {
-        clear: left;
-        float: left;
+        width: 80%;
+        clear: right;
+        float: right;
         margin-left: 50px;
         margin-bottom: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }  
     
     .contactus-section {
-        width: 85%;
-        
+        width: 85%;        
     }
     .sform {
         width: 70%;
-        
-
     }
-    
-   
 
 }
 
 /* For medium screen sizes from 600px wide and down */
 @media screen and (max-width:600px) {
-    #logo{        
-        font-size:140%;
-          
+    #logo {
+        width: 60%;
     }
-    #section-menu {        
-        font-size: 70%;        
-        right: 0;
+    #section-menu{
+        width: 60%;
         text-align: right;
-    }   
-
+    }
     #cover-text {
         left: 0;
         width: 200px;
