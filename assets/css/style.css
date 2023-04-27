@@ -269,6 +269,7 @@ footer {
     width: 100%;
     background: url('../images/beginner.jpg') no-repeat center center;
     background-size: contain;
+    margin-bottom: 60px;
     }
 
 #intermediate-image {
@@ -276,12 +277,14 @@ footer {
     width: 100%;
     background: url('../images/intermediate.jpg') no-repeat center center;
     background-size: contain;
+    margin-bottom: 30px;
 }
 #advanced-image {
     height: 150px;
     width: 100%;
     background: url('../images/advanced.jpg') no-repeat center center;
     background-size: contain;
+    margin-bottom: 30px;
 }        
 
 #workshop-image {
@@ -289,6 +292,7 @@ footer {
     width: 100%;
     background: url('../images/workshop1.jpg') no-repeat center center;
     background-size: contain;
+    margin-bottom: 30px;
 }
 #programs h2 {
     font-size: x-large;
