@@ -1,9 +1,13 @@
 <h1 align="center">Dublin Surf Club Website</h1>
 
-This is a marketing website for the fictitious urban surf park Dublin Surf Club. The main purpose is to promote a better lifestyle to people that live or are visiting the city by offering tailored surf programs for all ages and levels. 
-Due to its responsiveness and accessibility on a range of devices, users will be able to  easily navigate, seek for more information and potentially register their interest in joining the organisation.
+[View the live project here.](https://edsonsmartins.github.io/dublinsurfclub/)
 
+This is a marketing website for the fictitious urban surf park Dublin Surf Club. The Dublin Surf Club offers surf academy programs mainly for 3 main different surf levels. 
+The main purpose is to promote a better lifestyle to people that live in Dublin or are visiting the city by offering tailored surf programs for all ages and levels. 
 
+Users will be able to find all information about Dublinf Surf Club: core advantages, surf academy, contact information and contact us form for more details. This was designed responsiveness in order to facilitate user experience easily navigating through the website, seek for more information and potentially register their interest in joining the surf academy program. 
+
+<h2> align="center"><img src="/assets/images/snidreadme.png"></h2>
 ## User Stories
 
 ## First time Visitor goals
