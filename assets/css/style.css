@@ -82,14 +82,14 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for main image */
-@keyframes main-zoom {
-    from {
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+    /* creates the level of zoom for main image */
+    @keyframes main-zoom {
+        from {
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
 }
 
 #cover-text {
@@ -123,7 +123,7 @@ h1, h2 {
 }
 
 
-/* section two - about us */
+/* section two - about us - core advantages */
 
 .section-heading {
     text-align: center;
@@ -159,7 +159,7 @@ hr {
 
 
 
-/* Surfing Academy Section - index.html */
+/* Surfing Academy Banner - link to Sur academy page */
 
 #sacademy-outer{
     margin-top: 100px;
@@ -312,7 +312,7 @@ footer {
     margin: 20px;
 }
 
-/* Button Styling */
+/* More Info Button - link to contact page */
 
 .button {
     background: black;
@@ -337,7 +337,7 @@ footer {
     text-decoration: none;
 }
 
-/* Contact Us page */
+/* Contact Us page - backgroung image and form */
 
 .contactus-outer {   
     clear: both;
