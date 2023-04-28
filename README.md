@@ -204,7 +204,9 @@ Users will be able to find all information about Dublinf Surf Club: core advanta
 - [Istockphoto](https://www.istockphoto.com/) 
 - [Pexels](https://www.pexels.com/) 
 - [Freepik](https://www.freepik.es/)
-- [Wavegarden](https://wavegarden.com/)
+- [Wavegarden](https://wavegarden.com/) 
+- [Urbnsurf](https://urbnsurf.com/) for The image with three surfers (no copyright infringement is intended)
+- SWNS:SOUTH WEST NEWS SERVICE - for The Wave from above (Image: James Dadzitis / SWNS) (no copyright infringement is intended)
 
 ### Acknowledgements
 - [Slack community](https://slack.com) For the continuously support no matter what or when.
@@ -212,3 +214,6 @@ Users will be able to find all information about Dublinf Surf Club: core advanta
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+#Note
++ No copyright infringement is intended and all information images are for educational usage only.
