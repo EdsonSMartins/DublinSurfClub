@@ -77,7 +77,7 @@ Users will be able to find all information about Dublinf Surf Club: core advanta
    + In addition to the surf programs as per different levels, workshops are also part of the Surf Academy. It is stated frequency and subjects that may be covered.
    + In each level section and workshop, user will find a trigger button to take them to the contact page and request more information.
    
-  ![sacademy](https://user-images.githubusercontent.com/126015675/235187522-09741214-0f81-452f-bf11-b44ac83ad859.PNG)
+  ![sacademy](https://user-images.githubusercontent.com/126015675/235261897-18441b5b-2377-4b9f-807f-0d647f5164ca.PNG)
   
 ## Contact section
 
