@@ -215,5 +215,5 @@ Users will be able to find all information about Dublinf Surf Club: core advanta
 
 -   Tutor support at Code Institute for their support.
 
-#Note
+#### Note
 + No copyright infringement is intended and all information images are for educational usage only.
